@@ -1,0 +1,32 @@
+# Ігнорувати віртуальне середовище
+.venv/
+venv/
+ENV/
+env/
+
+# Службові файли Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Логи
+*.log
+debug.log
+
+# Файли конфігурації середовища
+pyvenv.cfg
+
+# Файли IDE (наприклад, PyCharm)
+.idea/
+*.iml
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Бібліотеки, встановлені в середовищі
+Lib/
+Scripts/
+etc/
+share/
