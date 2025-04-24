@@ -1,0 +1,50 @@
+2025-04-25 01:33:13,642 [INFO] Запуск програми RAG-системи
+2025-04-25 01:33:13,643 [INFO] Запуск інтерфейсу RAG-системи
+2025-04-25 01:33:13,668 [INFO] Завантаження локальної моделі...
+2025-04-25 01:33:13,672 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2025-04-25 01:33:13,911 [DEBUG] https://huggingface.co:443 "HEAD /EleutherAI/gpt-neo-2.7B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-25 01:33:14,225 [DEBUG] https://huggingface.co:443 "HEAD /EleutherAI/gpt-neo-2.7B/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 01:33:15,922 [DEBUG] https://huggingface.co:443 "HEAD /EleutherAI/gpt-neo-2.7B/resolve/main/generation_config.json HTTP/11" 404 0
+2025-04-25 01:33:15,927 [INFO] Use pytorch device_name: cpu
+2025-04-25 01:33:15,928 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-25 01:33:16,071 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-25 01:33:16,699 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-04-25 01:33:16,853 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-04-25 01:33:17,004 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-25 01:33:17,146 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-04-25 01:33:17,296 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+2025-04-25 01:33:17,442 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 01:33:17,856 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-25 01:33:18,043 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6766
+2025-04-25 01:33:18,439 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6766
+2025-04-25 01:33:18,445 [INFO] Обрізаємо документи до 300 символів.
+2025-04-25 01:33:18,446 [INFO] Ініціалізація FAISS...
+2025-04-25 01:33:18,872 [INFO] Отримано вектори для документів: (4, 384)
+2025-04-25 01:33:18,872 [INFO] Документи додано в FAISS: 4 елементів
+2025-04-25 01:33:18,872 [INFO] Завершення роботи інтерфейсу
+2025-04-25 01:33:18,872 [INFO] Завершення роботи програми
+2025-04-25 01:33:41,340 [INFO] Запуск програми RAG-системи
+2025-04-25 01:33:41,340 [INFO] Запуск інтерфейсу RAG-системи
+2025-04-25 01:33:41,346 [INFO] Завантаження локальної моделі...
+2025-04-25 01:33:41,349 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2025-04-25 01:33:41,545 [DEBUG] https://huggingface.co:443 "HEAD /EleutherAI/gpt-neo-2.7B/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-25 01:33:41,821 [DEBUG] https://huggingface.co:443 "HEAD /EleutherAI/gpt-neo-2.7B/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 01:33:43,497 [DEBUG] https://huggingface.co:443 "HEAD /EleutherAI/gpt-neo-2.7B/resolve/main/generation_config.json HTTP/11" 404 0
+2025-04-25 01:33:43,504 [INFO] Use pytorch device_name: cpu
+2025-04-25 01:33:43,504 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-25 01:33:43,649 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-25 01:33:43,792 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/11" 200 0
+2025-04-25 01:33:44,438 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/11" 200 0
+2025-04-25 01:33:44,664 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/11" 200 0
+2025-04-25 01:33:44,813 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/11" 200 0
+2025-04-25 01:33:44,958 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/11" 404 0
+2025-04-25 01:33:45,103 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/11" 200 0
+2025-04-25 01:33:45,452 [DEBUG] https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2025-04-25 01:33:45,669 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/11" 200 6766
+2025-04-25 01:33:45,821 [DEBUG] https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/11" 200 6766
+2025-04-25 01:33:45,823 [INFO] Обрізаємо документи до 300 символів.
+2025-04-25 01:33:45,825 [INFO] Ініціалізація FAISS...
+2025-04-25 01:33:45,899 [INFO] Отримано вектори для документів: (4, 384)
+2025-04-25 01:33:45,899 [INFO] Документи додано в FAISS: 4 елементів
+2025-04-25 01:33:45,900 [INFO] Завершення роботи інтерфейсу
+2025-04-25 01:33:45,901 [INFO] Завершення роботи програми
