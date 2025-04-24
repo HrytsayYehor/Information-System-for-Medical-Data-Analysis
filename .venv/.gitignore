@@ -4,6 +4,7 @@ venv/
 ENV/
 env/
 
+
 # Службові файли Python
 __pycache__/
 *.py[cod]
@@ -30,3 +31,5 @@ Lib/
 Scripts/
 etc/
 share/
+
+.flake8
